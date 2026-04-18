@@ -1,5 +1,5 @@
 # one-key-emea-milwaukee-tool
-Project (Weekend Challenge) as part of the application for a working student position with the ONE-KEY EMEA Milwaukee® Digital Product team
+Full stack project as part of the application for a working student position with the ONE-KEY EMEA Milwaukee® Digital Product team (Weekend Challenge)
 
 # Context
 A technology company is developing new products and regularly sends physical sample units to different
