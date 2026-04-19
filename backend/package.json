@@ -1,11 +1,19 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "type": "commonjs",
+  "module": "index.ts",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "typecheck": "tsc --noEmit",
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js",
+    "dev": "npx tsx watch src/index.ts"
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "Backend system with event-driven architecture for managing the warehouse tools",
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  }
 }
